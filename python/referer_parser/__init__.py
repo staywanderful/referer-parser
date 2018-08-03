@@ -28,7 +28,7 @@ def load_referers(json_file):
                         referers_dict[domain]['params'] = params
     return referers_dict
 
-JSON_FILE = os.path.join(os.path.dirname(__file__), 'data', 'referers.json')
+JSON_FILE = os.path.join(os.path.dirname(__file__), 'data', 'referers-latest.json')
 REFERERS = load_referers(JSON_FILE)
 
 
